@@ -31,7 +31,7 @@ const Table = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {data.map((row, index) => ( 
+                    {data.map((row, index) => (
                         <tr key={index}>
                             <td>
                                 <input onChange={(e) => handleChange(index, 'url', e.target.value)} 
